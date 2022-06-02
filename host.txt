@@ -1,0 +1,6 @@
+[snipeit]
+#File host dapat menggunakan ip address atau domain seperti ini
+xxx.xxxx.xxxx.compute.amazonaws.com ansible_ssh_private_key_file=/project/snipeit/ids-snipeit.pem
+
+#use command bellow to skip public key confirmation
+#export ANSIBLE_HOST_KEY_CHECKING=False
